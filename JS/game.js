@@ -88,7 +88,6 @@ document.addEventListener("DOMContentLoaded", function () {
     resultContainer.textContent = `L'ordinateur a choisi: ${computerChoice}`;
   }
   
-
   function endGame() {
     let message = "";
     if (playerScore > computerScore) {
