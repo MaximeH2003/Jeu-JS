@@ -1,0 +1,146 @@
+/*              POLICE DECLARER ET UTILISEE             */
+
+@font-face {
+    font-family: 'minecraft_font';
+    src: url('../fonts/Minercraftory.ttf') format('truetype');
+  }
+
+/*              POLICE DECLARER ET UTILISEE fin            */
+
+body{
+    background-image: url(../images/paper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    background-color: rgb(127, 247, 241,0.15);
+
+}
+.container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 8%;
+}
+
+.box > img{
+    width: 175px;
+    height: 175px;
+}
+
+p{
+    margin: 0;
+}
+
+.choicefont{
+    border: solid black 6px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 365px;
+    height: 580px;
+    padding: 10px;
+    border-radius: 25px;
+    gap: 5px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    gap: 20px;
+    font-size: x-large;
+}
+.box{
+    height: 210px;
+    width: 350px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+    border: solid white 4px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 20;
+}
+
+/*              AFFICHAGE DES RESULTATS :               */
+
+
+.displayResult{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: solid 4px white;
+    border-radius: 20px;
+    width: 280px;
+    height: 80px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Minercraftory', sans-serif;
+}
+.displayWinner{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: aqua 1px 2px, aqua 1px 2px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*              VOICI LES ID DES BOUTONS :    (qui serviront au javascript)              */
+
+#btnSheet,#btnCut,#btnRock{
+    color: white;
+    background-color: rgb(0, 183, 255);
+    font-weight: bold;
+    font-size: large;
+    border: solid white 3px;
+    border-radius: 15px;
+    width: 85px;
+    height: 35px;
+}
+
+  /* Styles pour l'input */
+  #max-points-input {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: white solid 3px;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour la phrase de choix et le message de résultat */
+  #choice-message {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+
+.recommencer{
+    border-radius: 20px;
+    border: solid 2.4px white;
+    font-size: x-large;
+}
+
+p.displayP{
+    font-weight: bold;
+    font-size: large;
+
+}

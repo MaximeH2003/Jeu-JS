@@ -1,0 +1,69 @@
+
+body{
+    background-image: url(../images/paper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127, 247, 241,0.15);
+    height: 100%;
+}
+
+.box > img{
+    width: 175px;
+    height: 175px;
+}
+
+.displayResult{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: solid 4px white;
+    border-radius: 20px;
+    width: 280px;
+    height: 80px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Minercraftory', sans-serif;
+}
+
+.choicefont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border-radius: 25px;
+    gap: 25px;
+}
+
+.box{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+}
+.titlePlay{
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    /* -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white; */
+    text-shadow: 2px 0 0 rgb(255, 255, 255), 2px 2px 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), -2px 0 0 rgb(255, 255, 255), -2px -2px 0 rgb(255, 255, 255), 0 -2px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.play{
+    height: 450px;
+    width: 450px;
+  }

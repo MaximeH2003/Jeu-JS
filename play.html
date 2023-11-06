@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/index.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="choicefont rock">
+                <div class="item">
+                    <div class="btn">
+                        <button id="btnRock">pierre</button>
+                    </div>
+                    <div class="box">
+                        <img src="images/rock.png" alt="">
+                    </div>
+                </div>
+            </div>            
+            <div class="choicefont sheet">
+                <input type="text" id="max-points-input" placeholder="Entrez le maximum de points pour finir la partie !">
+                <p class="displayP" id="result-container"></p>
+                <p class="displayP" id="choice-message"></p>
+                <div id="game-end-container" style="display: none;">
+                    <p class="displayP" id="game-end-message"></p>
+                    <button class="recommencer" id="restart-button">Recommencer</button>
+                </div>
+
+                <div class="item">
+                    <div class="btn">
+                        <button id="btnSheet">feuille</button>
+                    </div>
+                    <div class="box">
+                        <img src="images/paper.png" alt="">
+                    </div>
+                </div>
+                <section id="scores">
+                    <p id="scores-container" class="displayResult"></p>
+                    <p id="winner-players" class="displayWinner"></p>
+                </section>
+            </div>
+            <div class="choicefont cut">
+                <div class="item">
+                    <div class="btn">
+                        <button id="btnCut">ciseaux</button>
+                    </div>
+                    <div class="box">
+                        <img src="images/scissors.png" alt="">
+                    </div>   
+            </div>        
+        </div>
+        
+        <script src="JS/game.js"></script>
+    </body>
+</html>
