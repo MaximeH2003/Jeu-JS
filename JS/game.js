@@ -75,9 +75,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function displayResult(result, playerChoice, computerChoice) {
+    const choiceMessage = document.getElementById("choice-message");
+    const resultContainer = document.getElementById("result-container");
+    // Sélectionne tous les éléments avec la classe "displayResult"
+    const displayResults = document.querySelectorAll('.displayResult');
+    // Change la propriété visibility de ces éléments à "visible"
+    displayResults.forEach(element => {
+      element.style.visibility = "visible";
+    });
+  
     choiceMessage.textContent = `Tu as choisi : ${playerChoice}`;
     resultContainer.textContent = `L'ordinateur a choisi: ${computerChoice}`;
   }
+  
 
   function endGame() {
     let message = "";
